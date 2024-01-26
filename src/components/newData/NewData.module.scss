@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    .select {
+      width: 200px;
+      height: 40px;
+    }
+    .formInputs {
+      display: flex;
+      gap: 15px;
+    }
+  }
+  .cardsDiv {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+  }
+}

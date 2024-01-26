@@ -1,0 +1,28 @@
+.card {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 8px;
+  margin-top: 32px;
+	.render {
+		width: 350px;
+		height: 420px;
+		border-radius: 14px;
+    margin-bottom: 100px;
+    img {
+      width: 350px;
+      height: 385px;
+      border-radius: 14px;
+    }
+    h3 {
+      color: #fff;
+      font-size: 23px;
+      font-weight: 600;
+    }
+    p {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+    }
+	}
+}

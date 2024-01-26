@@ -1,0 +1,20 @@
+.header {
+  .container {
+    padding-block: 50px;
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        p {
+          color: #fff;
+          font-size: 23px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
